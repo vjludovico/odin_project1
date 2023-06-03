@@ -1,62 +1,44 @@
 html {
     font-family: Roboto;
 }
-.whole {
-    /*display: flex;*/
-}
-
-.header {
-    height: 300px;
-    background-color: #1f2937;
-    width: 100%;
-    display: flex;
-}
-
-.logo {
-    font-size: 24px;
-    color: #f9faf8;
-    font-weight: 900; 
-    display: flex;   
-}
 
 a {
     color: #e5e7eb;
     text-decoration: none;
 }
-
-.nav {
+.content-top {
+    background-color: #1F2937;
+    height: 300px;
+    border: 2px solid green;
+}
+.header {
+    border: 2px solid red;
+    display: flex;    
+}
+.logo,.links {
+    border: 2px solid red;
+    display: flex;
+}
+.logo {   
+    padding-top: 14px;
     font-size: 18px;
     color: #e5e7eb;
+    font-weight: 700;
+    justify-content: flex-start;
+    padding-left: 100px;
+}
+.links {
+    justify-content: flex-end;
+    margin-left: auto;
+    padding-right: 100px;
+}
+ul {
+    list-style-type: none;
     display: flex;
-}
-
-.top {
-    height: 150px;
-    width: 300px;
-}
-
-.content-top {
-    color: #f9faf8;
-    display: flex;
-}
-
-.card-top {
-    display: flex;
-    justify-content: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    font-weight: 900;
-    
-}
-
-.cards {
-    display: flex;
-    margin-left: 175px;
-    margin-right: 175px;
-    font-size: 12px;
-    text-align: center;
-}
-.card-pic {
-    height: 100px;
-    width: 100px;
-}
+    gap: 20px;
+  }
+  .top-left {
+    border: 2px solid orange;
+    height: 300px;
+    margin-top: 240px;
+  }
