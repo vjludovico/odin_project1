@@ -8,7 +8,7 @@ a {
 }
 .content-top {
     background-color: #1F2937;
-    height: 375px;
+    padding-bottom: 75px;
 }
     
 .header {    
@@ -77,4 +77,50 @@ p {
     margin-left: auto;
     padding-right: 100px;
     align-items: center;
+}
+.one,.two,.three,.four {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+.content-mid {
+    display: flex;
+    justify-content: center;
+    padding: 0 150px 75px 150px;
+}
+figcaption {
+    font-size: 14px;
+    text-align: center;
+    color: #1f2937;
+}
+.title-mid {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+.content-bottom {
+    background-color: #e5e7eb;
+    padding: 75px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    padding: 0 130px 0 130px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.thor {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    padding-right: 200px;
 }
