@@ -8,15 +8,13 @@ a {
 }
 .content-top {
     background-color: #1F2937;
-    height: 300px;
-    border: 2px solid green;
+    height: 375px;
 }
-.header {
-    border: 2px solid red;
+    
+.header {    
     display: flex;    
 }
 .logo,.links {
-    border: 2px solid red;
     display: flex;
 }
 .logo {   
@@ -37,8 +35,46 @@ ul {
     display: flex;
     gap: 20px;
   }
-  .top-left {
-    border: 2px solid orange;
-    height: 300px;
-    margin-top: 240px;
+  .container-top {
+    display: flex;
   }
+  .top-left{
+    padding-right: 25px;
+  }
+.hero-title {
+    display: flex;
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    justify-content: flex-start;
+    padding-left: 100px;
+    margin-bottom: 0px;
+}
+p {
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-left: 100px;
+    margin-top: 0px;
+}
+.button-one {
+    display: flex;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 10px;
+    border: none;
+    margin-left: 100px;
+    padding: 10px 20px 10px 20px;
+    font-weight: 700;
+}
+.img {
+    height: 200px;
+    width: 350px;
+}
+.top-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    padding-right: 100px;
+    align-items: center;
+}
