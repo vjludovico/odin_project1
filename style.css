@@ -1,6 +1,9 @@
 html {
     font-family: Roboto;
 }
+body {
+    margin: 0;
+}
 
 a {
     color: #e5e7eb;
@@ -50,7 +53,7 @@ ul {
     padding-left: 100px;
     margin-bottom: 0px;
 }
-p {
+.header-p {
     display: flex;
     font-size: 18px;
     color: #e5e7eb;
@@ -79,8 +82,8 @@ p {
     align-items: center;
 }
 .one,.two,.three,.four {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 15px;
 }
 .content-mid {
@@ -123,4 +126,54 @@ blockquote {
     justify-content: flex-end;
     margin-left: auto;
     padding-right: 200px;
+}
+.footer {
+    display: flex;
+    padding: 75px 100px 75px 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer-container {
+    background-color: #3882f6;
+    border-radius: 5px;
+    display: flex;
+    
+}
+.footer-title {
+    color: #e5e7eb; 
+    display: flex;   
+    justify-content: flex-start;
+    margin: 0;
+    font-size: 1.3em;
+    padding: 25px 0 0 100px;
+}
+.footer-p {
+    font-size: .9em;  
+    color: #e5e7eb; 
+    margin: 0; 
+    padding: 0 0 25px 100px;
+}
+.footer-left {
+    display: flex;
+    flex-direction: column;
+}
+.footer-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    padding-right: 100px;
+    align-items: center;
+}
+.footer-button {
+    
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 8px;
+    border: none;
+    margin-left: 100px;
+    padding: 5px 20px 5px 20px;
+    font-weight: 700;
+    border: 2px solid #e5e7eb;
+    flex-shrink: 0;
 }
